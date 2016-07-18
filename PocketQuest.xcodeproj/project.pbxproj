@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F30DACBB1D3D69B80076C0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30DACBA1D3D69B80076C0D9 /* AppDelegate.swift */; };
+		F30DACBD1D3D69B80076C0D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30DACBC1D3D69B80076C0D9 /* ViewController.swift */; };
+		F30DACC01D3D69B80076C0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30DACBE1D3D69B80076C0D9 /* Main.storyboard */; };
+		F30DACC21D3D69B80076C0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30DACC11D3D69B80076C0D9 /* Assets.xcassets */; };
+		F30DACC51D3D69B80076C0D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30DACC31D3D69B80076C0D9 /* LaunchScreen.storyboard */; };
+		F30DACD01D3D69B80076C0D9 /* PocketQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30DACCF1D3D69B80076C0D9 /* PocketQuestTests.swift */; };
+		F30DACDB1D3D69B80076C0D9 /* PocketQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30DACDA1D3D69B80076C0D9 /* PocketQuestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F30DACCC1D3D69B80076C0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30DACAF1D3D69B80076C0D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30DACB61D3D69B80076C0D9;
+			remoteInfo = PocketQuest;
+		};
+		F30DACD71D3D69B80076C0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30DACAF1D3D69B80076C0D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30DACB61D3D69B80076C0D9;
+			remoteInfo = PocketQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F30DACB71D3D69B80076C0D9 /* PocketQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30DACBA1D3D69B80076C0D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F30DACBC1D3D69B80076C0D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F30DACBF1D3D69B80076C0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F30DACC11D3D69B80076C0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F30DACC41D3D69B80076C0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F30DACC61D3D69B80076C0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30DACCB1D3D69B80076C0D9 /* PocketQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30DACCF1D3D69B80076C0D9 /* PocketQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketQuestTests.swift; sourceTree = "<group>"; };
+		F30DACD11D3D69B80076C0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30DACD61D3D69B80076C0D9 /* PocketQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30DACDA1D3D69B80076C0D9 /* PocketQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketQuestUITests.swift; sourceTree = "<group>"; };
+		F30DACDC1D3D69B80076C0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30DACB41D3D69B80076C0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACC81D3D69B80076C0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACD31D3D69B80076C0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30DACAE1D3D69B80076C0D9 = {
+			isa = PBXGroup;
+			children = (
+				F30DACB91D3D69B80076C0D9 /* PocketQuest */,
+				F30DACCE1D3D69B80076C0D9 /* PocketQuestTests */,
+				F30DACD91D3D69B80076C0D9 /* PocketQuestUITests */,
+				F30DACB81D3D69B80076C0D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F30DACB81D3D69B80076C0D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30DACB71D3D69B80076C0D9 /* PocketQuest.app */,
+				F30DACCB1D3D69B80076C0D9 /* PocketQuestTests.xctest */,
+				F30DACD61D3D69B80076C0D9 /* PocketQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F30DACB91D3D69B80076C0D9 /* PocketQuest */ = {
+			isa = PBXGroup;
+			children = (
+				F30DACBA1D3D69B80076C0D9 /* AppDelegate.swift */,
+				F30DACBC1D3D69B80076C0D9 /* ViewController.swift */,
+				F30DACBE1D3D69B80076C0D9 /* Main.storyboard */,
+				F30DACC11D3D69B80076C0D9 /* Assets.xcassets */,
+				F30DACC31D3D69B80076C0D9 /* LaunchScreen.storyboard */,
+				F30DACC61D3D69B80076C0D9 /* Info.plist */,
+			);
+			path = PocketQuest;
+			sourceTree = "<group>";
+		};
+		F30DACCE1D3D69B80076C0D9 /* PocketQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F30DACCF1D3D69B80076C0D9 /* PocketQuestTests.swift */,
+				F30DACD11D3D69B80076C0D9 /* Info.plist */,
+			);
+			path = PocketQuestTests;
+			sourceTree = "<group>";
+		};
+		F30DACD91D3D69B80076C0D9 /* PocketQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F30DACDA1D3D69B80076C0D9 /* PocketQuestUITests.swift */,
+				F30DACDC1D3D69B80076C0D9 /* Info.plist */,
+			);
+			path = PocketQuestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30DACB61D3D69B80076C0D9 /* PocketQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30DACDF1D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PocketQuest" */;
+			buildPhases = (
+				F30DACB31D3D69B80076C0D9 /* Sources */,
+				F30DACB41D3D69B80076C0D9 /* Frameworks */,
+				F30DACB51D3D69B80076C0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketQuest;
+			productName = PocketQuest;
+			productReference = F30DACB71D3D69B80076C0D9 /* PocketQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F30DACCA1D3D69B80076C0D9 /* PocketQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30DACE21D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PocketQuestTests" */;
+			buildPhases = (
+				F30DACC71D3D69B80076C0D9 /* Sources */,
+				F30DACC81D3D69B80076C0D9 /* Frameworks */,
+				F30DACC91D3D69B80076C0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30DACCD1D3D69B80076C0D9 /* PBXTargetDependency */,
+			);
+			name = PocketQuestTests;
+			productName = PocketQuestTests;
+			productReference = F30DACCB1D3D69B80076C0D9 /* PocketQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F30DACD51D3D69B80076C0D9 /* PocketQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30DACE51D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PocketQuestUITests" */;
+			buildPhases = (
+				F30DACD21D3D69B80076C0D9 /* Sources */,
+				F30DACD31D3D69B80076C0D9 /* Frameworks */,
+				F30DACD41D3D69B80076C0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30DACD81D3D69B80076C0D9 /* PBXTargetDependency */,
+			);
+			name = PocketQuestUITests;
+			productName = PocketQuestUITests;
+			productReference = F30DACD61D3D69B80076C0D9 /* PocketQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30DACAF1D3D69B80076C0D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Flavio Lici";
+				TargetAttributes = {
+					F30DACB61D3D69B80076C0D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F30DACCA1D3D69B80076C0D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F30DACB61D3D69B80076C0D9;
+					};
+					F30DACD51D3D69B80076C0D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F30DACB61D3D69B80076C0D9;
+					};
+				};
+			};
+			buildConfigurationList = F30DACB21D3D69B80076C0D9 /* Build configuration list for PBXProject "PocketQuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F30DACAE1D3D69B80076C0D9;
+			productRefGroup = F30DACB81D3D69B80076C0D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30DACB61D3D69B80076C0D9 /* PocketQuest */,
+				F30DACCA1D3D69B80076C0D9 /* PocketQuestTests */,
+				F30DACD51D3D69B80076C0D9 /* PocketQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30DACB51D3D69B80076C0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30DACC51D3D69B80076C0D9 /* LaunchScreen.storyboard in Resources */,
+				F30DACC21D3D69B80076C0D9 /* Assets.xcassets in Resources */,
+				F30DACC01D3D69B80076C0D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACC91D3D69B80076C0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACD41D3D69B80076C0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30DACB31D3D69B80076C0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30DACBD1D3D69B80076C0D9 /* ViewController.swift in Sources */,
+				F30DACBB1D3D69B80076C0D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACC71D3D69B80076C0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30DACD01D3D69B80076C0D9 /* PocketQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACD21D3D69B80076C0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30DACDB1D3D69B80076C0D9 /* PocketQuestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F30DACCD1D3D69B80076C0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30DACB61D3D69B80076C0D9 /* PocketQuest */;
+			targetProxy = F30DACCC1D3D69B80076C0D9 /* PBXContainerItemProxy */;
+		};
+		F30DACD81D3D69B80076C0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30DACB61D3D69B80076C0D9 /* PocketQuest */;
+			targetProxy = F30DACD71D3D69B80076C0D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F30DACBE1D3D69B80076C0D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30DACBF1D3D69B80076C0D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F30DACC31D3D69B80076C0D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30DACC41D3D69B80076C0D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F30DACDD1D3D69B80076C0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F30DACDE1D3D69B80076C0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F30DACE01D3D69B80076C0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F30DACE11D3D69B80076C0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F30DACE31D3D69B80076C0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketQuest.app/PocketQuest";
+			};
+			name = Debug;
+		};
+		F30DACE41D3D69B80076C0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketQuest.app/PocketQuest";
+			};
+			name = Release;
+		};
+		F30DACE61D3D69B80076C0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PocketQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PocketQuest;
+			};
+			name = Debug;
+		};
+		F30DACE71D3D69B80076C0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PocketQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PocketQuest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30DACB21D3D69B80076C0D9 /* Build configuration list for PBXProject "PocketQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30DACDD1D3D69B80076C0D9 /* Debug */,
+				F30DACDE1D3D69B80076C0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30DACDF1D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PocketQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30DACE01D3D69B80076C0D9 /* Debug */,
+				F30DACE11D3D69B80076C0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F30DACE21D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PocketQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30DACE31D3D69B80076C0D9 /* Debug */,
+				F30DACE41D3D69B80076C0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F30DACE51D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PocketQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30DACE61D3D69B80076C0D9 /* Debug */,
+				F30DACE71D3D69B80076C0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F30DACAF1D3D69B80076C0D9 /* Project object */;
+}
