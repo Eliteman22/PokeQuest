@@ -1,0 +1,6 @@
+framework module Pods_PocketQuestTests {
+  umbrella header "Pods-PocketQuestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

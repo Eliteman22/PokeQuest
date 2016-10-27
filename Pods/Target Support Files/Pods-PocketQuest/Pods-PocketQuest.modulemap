@@ -1,0 +1,6 @@
+framework module Pods_PocketQuest {
+  umbrella header "Pods-PocketQuest-umbrella.h"
+
+  export *
+  module * { export * }
+}

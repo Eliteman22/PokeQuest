@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2504DF67B54486D15DC94C38 /* Pods_PocketQuest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DBE791ED827A3E08B29F5B /* Pods_PocketQuest.framework */; };
+		4D072877E4F378E600B489A4 /* Pods_PocketQuestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3308A80B619EB989AE8C0429 /* Pods_PocketQuestTests.framework */; };
+		F09F02AF7BACF5DE8184A3AB /* Pods_PocketQuestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902E17E8589831481C3FDB2C /* Pods_PocketQuestUITests.framework */; };
+		F3055BE61D63B4C2004967C4 /* pokestops.json in Resources */ = {isa = PBXBuildFile; fileRef = F3055BE51D63B4C2004967C4 /* pokestops.json */; };
+		F3055BE81D641E12004967C4 /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = F3055BE71D641E12004967C4 /* transactions.json */; };
+		F309C67A1D68A6BE004A184E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F309C6791D68A6BE004A184E /* Bolts.framework */; };
+		F309C67C1D68A6C8004A184E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F309C67B1D68A6C8004A184E /* Parse.framework */; };
+		F30DACBB1D3D69B80076C0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30DACBA1D3D69B80076C0D9 /* AppDelegate.swift */; };
+		F30DACBD1D3D69B80076C0D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30DACBC1D3D69B80076C0D9 /* ViewController.swift */; };
+		F30DACC01D3D69B80076C0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30DACBE1D3D69B80076C0D9 /* Main.storyboard */; };
+		F30DACC21D3D69B80076C0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30DACC11D3D69B80076C0D9 /* Assets.xcassets */; };
+		F30DACC51D3D69B80076C0D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30DACC31D3D69B80076C0D9 /* LaunchScreen.storyboard */; };
+		F30DACD01D3D69B80076C0D9 /* PocketQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30DACCF1D3D69B80076C0D9 /* PocketQuestTests.swift */; };
+		F30DACDB1D3D69B80076C0D9 /* PocketQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30DACDA1D3D69B80076C0D9 /* PocketQuestUITests.swift */; };
+		F30DACED1D3DDEC10076C0D9 /* PokeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30DACEC1D3DDEC10076C0D9 /* PokeMapViewController.swift */; };
+		F30DACF01D3E71780076C0D9 /* LocalChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30DACEF1D3E71780076C0D9 /* LocalChatViewController.swift */; };
+		F31C2D6E1D5EE3940085088C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F31C2D6D1D5EE3940085088C /* GoogleService-Info.plist */; };
+		F34EBA7B1D5669A70041557C /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34EBA7A1D5669A70041557C /* Pokemon.swift */; };
+		F34EBA7D1D57FDC30041557C /* PokeFilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34EBA7C1D57FDC30041557C /* PokeFilterTableViewCell.swift */; };
+		F34EBA7F1D58DDD30041557C /* chatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34EBA7E1D58DDD30041557C /* chatMessage.swift */; };
+		F3A2500A1D5A4E7B00F64E15 /* ChatCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A250091D5A4E7B00F64E15 /* ChatCellTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F30DACCC1D3D69B80076C0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30DACAF1D3D69B80076C0D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30DACB61D3D69B80076C0D9;
+			remoteInfo = PocketQuest;
+		};
+		F30DACD71D3D69B80076C0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30DACAF1D3D69B80076C0D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30DACB61D3D69B80076C0D9;
+			remoteInfo = PocketQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		209E635E7975ABB5333DDE84 /* Pods-PocketQuestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketQuestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocketQuestTests/Pods-PocketQuestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		325B0FFAD38BE91EE0D791B8 /* Pods-PocketQuestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketQuestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocketQuestUITests/Pods-PocketQuestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3308A80B619EB989AE8C0429 /* Pods_PocketQuestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketQuestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1CB570B4BCA78C963C99B2 /* Pods-PocketQuestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketQuestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketQuestUITests/Pods-PocketQuestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8DC6FF953C2EBE3E6C3DC0FB /* Pods-PocketQuest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketQuest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocketQuest/Pods-PocketQuest.debug.xcconfig"; sourceTree = "<group>"; };
+		902E17E8589831481C3FDB2C /* Pods_PocketQuestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketQuestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80427209C47484A58860A0A /* Pods-PocketQuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketQuest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketQuest/Pods-PocketQuest.release.xcconfig"; sourceTree = "<group>"; };
+		B0F8A1E03632490985BCED31 /* Pods-PocketQuestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketQuestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketQuestTests/Pods-PocketQuestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8DBE791ED827A3E08B29F5B /* Pods_PocketQuest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketQuest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3055BE51D63B4C2004967C4 /* pokestops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokestops.json; sourceTree = "<group>"; };
+		F3055BE71D641E12004967C4 /* transactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions.json; sourceTree = "<group>"; };
+		F309C6791D68A6BE004A184E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F309C67B1D68A6C8004A184E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F30DACB71D3D69B80076C0D9 /* PokeQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30DACBA1D3D69B80076C0D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F30DACBC1D3D69B80076C0D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F30DACBF1D3D69B80076C0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F30DACC11D3D69B80076C0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F30DACC41D3D69B80076C0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F30DACC61D3D69B80076C0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30DACCB1D3D69B80076C0D9 /* PokeQuest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeQuest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30DACCF1D3D69B80076C0D9 /* PocketQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketQuestTests.swift; sourceTree = "<group>"; };
+		F30DACD11D3D69B80076C0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30DACD61D3D69B80076C0D9 /* PokeQuest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeQuest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30DACDA1D3D69B80076C0D9 /* PocketQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketQuestUITests.swift; sourceTree = "<group>"; };
+		F30DACDC1D3D69B80076C0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30DACEC1D3DDEC10076C0D9 /* PokeMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeMapViewController.swift; sourceTree = "<group>"; };
+		F30DACEE1D3E6DBB0076C0D9 /* PocketQuest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketQuest-Bridging-Header.h"; sourceTree = "<group>"; };
+		F30DACEF1D3E71780076C0D9 /* LocalChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalChatViewController.swift; sourceTree = "<group>"; };
+		F31C2D6D1D5EE3940085088C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F34EBA7A1D5669A70041557C /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		F34EBA7C1D57FDC30041557C /* PokeFilterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeFilterTableViewCell.swift; sourceTree = "<group>"; };
+		F34EBA7E1D58DDD30041557C /* chatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatMessage.swift; sourceTree = "<group>"; };
+		F3A250091D5A4E7B00F64E15 /* ChatCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCellTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30DACB41D3D69B80076C0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F309C67C1D68A6C8004A184E /* Parse.framework in Frameworks */,
+				F309C67A1D68A6BE004A184E /* Bolts.framework in Frameworks */,
+				2504DF67B54486D15DC94C38 /* Pods_PocketQuest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACC81D3D69B80076C0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D072877E4F378E600B489A4 /* Pods_PocketQuestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACD31D3D69B80076C0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09F02AF7BACF5DE8184A3AB /* Pods_PocketQuestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F18BAAC032B0E50CF1C6F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F309C67B1D68A6C8004A184E /* Parse.framework */,
+				F309C6791D68A6BE004A184E /* Bolts.framework */,
+				C8DBE791ED827A3E08B29F5B /* Pods_PocketQuest.framework */,
+				3308A80B619EB989AE8C0429 /* Pods_PocketQuestTests.framework */,
+				902E17E8589831481C3FDB2C /* Pods_PocketQuestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E96838A209577BDA1105E4BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DC6FF953C2EBE3E6C3DC0FB /* Pods-PocketQuest.debug.xcconfig */,
+				A80427209C47484A58860A0A /* Pods-PocketQuest.release.xcconfig */,
+				209E635E7975ABB5333DDE84 /* Pods-PocketQuestTests.debug.xcconfig */,
+				B0F8A1E03632490985BCED31 /* Pods-PocketQuestTests.release.xcconfig */,
+				325B0FFAD38BE91EE0D791B8 /* Pods-PocketQuestUITests.debug.xcconfig */,
+				7D1CB570B4BCA78C963C99B2 /* Pods-PocketQuestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F30DACAE1D3D69B80076C0D9 = {
+			isa = PBXGroup;
+			children = (
+				F30DACB91D3D69B80076C0D9 /* PocketQuest */,
+				F30DACCE1D3D69B80076C0D9 /* PocketQuestTests */,
+				F30DACD91D3D69B80076C0D9 /* PocketQuestUITests */,
+				F30DACB81D3D69B80076C0D9 /* Products */,
+				E96838A209577BDA1105E4BF /* Pods */,
+				09F18BAAC032B0E50CF1C6F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F30DACB81D3D69B80076C0D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30DACB71D3D69B80076C0D9 /* PokeQuest.app */,
+				F30DACCB1D3D69B80076C0D9 /* PokeQuest.xctest */,
+				F30DACD61D3D69B80076C0D9 /* PokeQuest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F30DACB91D3D69B80076C0D9 /* PocketQuest */ = {
+			isa = PBXGroup;
+			children = (
+				F30DACBA1D3D69B80076C0D9 /* AppDelegate.swift */,
+				F3A250091D5A4E7B00F64E15 /* ChatCellTableViewCell.swift */,
+				F30DACBC1D3D69B80076C0D9 /* ViewController.swift */,
+				F30DACEE1D3E6DBB0076C0D9 /* PocketQuest-Bridging-Header.h */,
+				F30DACBE1D3D69B80076C0D9 /* Main.storyboard */,
+				F34EBA7E1D58DDD30041557C /* chatMessage.swift */,
+				F34EBA7C1D57FDC30041557C /* PokeFilterTableViewCell.swift */,
+				F3055BE51D63B4C2004967C4 /* pokestops.json */,
+				F31C2D6D1D5EE3940085088C /* GoogleService-Info.plist */,
+				F34EBA7A1D5669A70041557C /* Pokemon.swift */,
+				F3055BE71D641E12004967C4 /* transactions.json */,
+				F30DACEF1D3E71780076C0D9 /* LocalChatViewController.swift */,
+				F30DACEC1D3DDEC10076C0D9 /* PokeMapViewController.swift */,
+				F30DACC11D3D69B80076C0D9 /* Assets.xcassets */,
+				F30DACC31D3D69B80076C0D9 /* LaunchScreen.storyboard */,
+				F30DACC61D3D69B80076C0D9 /* Info.plist */,
+			);
+			path = PocketQuest;
+			sourceTree = "<group>";
+		};
+		F30DACCE1D3D69B80076C0D9 /* PocketQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F30DACCF1D3D69B80076C0D9 /* PocketQuestTests.swift */,
+				F30DACD11D3D69B80076C0D9 /* Info.plist */,
+			);
+			path = PocketQuestTests;
+			sourceTree = "<group>";
+		};
+		F30DACD91D3D69B80076C0D9 /* PocketQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F30DACDA1D3D69B80076C0D9 /* PocketQuestUITests.swift */,
+				F30DACDC1D3D69B80076C0D9 /* Info.plist */,
+			);
+			path = PocketQuestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30DACB61D3D69B80076C0D9 /* PokeQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30DACDF1D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PokeQuest" */;
+			buildPhases = (
+				E2B792FD4B26DC7D83A87B90 /* [CP] Check Pods Manifest.lock */,
+				F30DACB31D3D69B80076C0D9 /* Sources */,
+				F30DACB41D3D69B80076C0D9 /* Frameworks */,
+				F30DACB51D3D69B80076C0D9 /* Resources */,
+				9B053880CBEA43AA5B804D3A /* [CP] Embed Pods Frameworks */,
+				A396DE42C3333EA0EF4DC52F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokeQuest;
+			productName = PocketQuest;
+			productReference = F30DACB71D3D69B80076C0D9 /* PokeQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F30DACCA1D3D69B80076C0D9 /* PokeQuest.temp_caseinsensitive_renameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30DACE21D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PokeQuest.temp_caseinsensitive_renameTests" */;
+			buildPhases = (
+				BA4DF50F5AA16DC383D2380C /* [CP] Check Pods Manifest.lock */,
+				F30DACC71D3D69B80076C0D9 /* Sources */,
+				F30DACC81D3D69B80076C0D9 /* Frameworks */,
+				F30DACC91D3D69B80076C0D9 /* Resources */,
+				5A8E697EBF8591536BBD237F /* [CP] Embed Pods Frameworks */,
+				5014E376E35F7138084522C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30DACCD1D3D69B80076C0D9 /* PBXTargetDependency */,
+			);
+			name = PokeQuest.temp_caseinsensitive_renameTests;
+			productName = PocketQuestTests;
+			productReference = F30DACCB1D3D69B80076C0D9 /* PokeQuest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F30DACD51D3D69B80076C0D9 /* PokeQuest.temp_caseinsensitive_renameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30DACE51D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PokeQuest.temp_caseinsensitive_renameUITests" */;
+			buildPhases = (
+				1B1098925B74405712CC4FEF /* [CP] Check Pods Manifest.lock */,
+				F30DACD21D3D69B80076C0D9 /* Sources */,
+				F30DACD31D3D69B80076C0D9 /* Frameworks */,
+				F30DACD41D3D69B80076C0D9 /* Resources */,
+				546FCCA0182D3F4DD877ADF7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30DACD81D3D69B80076C0D9 /* PBXTargetDependency */,
+			);
+			name = PokeQuest.temp_caseinsensitive_renameUITests;
+			productName = PocketQuestUITests;
+			productReference = F30DACD61D3D69B80076C0D9 /* PokeQuest.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30DACAF1D3D69B80076C0D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Flavio Lici";
+				TargetAttributes = {
+					F30DACB61D3D69B80076C0D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F30DACCA1D3D69B80076C0D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F30DACB61D3D69B80076C0D9;
+					};
+					F30DACD51D3D69B80076C0D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F30DACB61D3D69B80076C0D9;
+					};
+				};
+			};
+			buildConfigurationList = F30DACB21D3D69B80076C0D9 /* Build configuration list for PBXProject "PokeQuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F30DACAE1D3D69B80076C0D9;
+			productRefGroup = F30DACB81D3D69B80076C0D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30DACB61D3D69B80076C0D9 /* PokeQuest */,
+				F30DACCA1D3D69B80076C0D9 /* PokeQuest.temp_caseinsensitive_renameTests */,
+				F30DACD51D3D69B80076C0D9 /* PokeQuest.temp_caseinsensitive_renameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30DACB51D3D69B80076C0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3055BE81D641E12004967C4 /* transactions.json in Resources */,
+				F31C2D6E1D5EE3940085088C /* GoogleService-Info.plist in Resources */,
+				F30DACC51D3D69B80076C0D9 /* LaunchScreen.storyboard in Resources */,
+				F3055BE61D63B4C2004967C4 /* pokestops.json in Resources */,
+				F30DACC21D3D69B80076C0D9 /* Assets.xcassets in Resources */,
+				F30DACC01D3D69B80076C0D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACC91D3D69B80076C0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACD41D3D69B80076C0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B1098925B74405712CC4FEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5014E376E35F7138084522C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketQuestTests/Pods-PocketQuestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		546FCCA0182D3F4DD877ADF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketQuestUITests/Pods-PocketQuestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8E697EBF8591536BBD237F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketQuestTests/Pods-PocketQuestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B053880CBEA43AA5B804D3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketQuest/Pods-PocketQuest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A396DE42C3333EA0EF4DC52F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketQuest/Pods-PocketQuest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA4DF50F5AA16DC383D2380C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B792FD4B26DC7D83A87B90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30DACB31D3D69B80076C0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34EBA7B1D5669A70041557C /* Pokemon.swift in Sources */,
+				F3A2500A1D5A4E7B00F64E15 /* ChatCellTableViewCell.swift in Sources */,
+				F30DACBD1D3D69B80076C0D9 /* ViewController.swift in Sources */,
+				F34EBA7F1D58DDD30041557C /* chatMessage.swift in Sources */,
+				F34EBA7D1D57FDC30041557C /* PokeFilterTableViewCell.swift in Sources */,
+				F30DACBB1D3D69B80076C0D9 /* AppDelegate.swift in Sources */,
+				F30DACF01D3E71780076C0D9 /* LocalChatViewController.swift in Sources */,
+				F30DACED1D3DDEC10076C0D9 /* PokeMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACC71D3D69B80076C0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30DACD01D3D69B80076C0D9 /* PocketQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30DACD21D3D69B80076C0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30DACDB1D3D69B80076C0D9 /* PocketQuestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F30DACCD1D3D69B80076C0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30DACB61D3D69B80076C0D9 /* PokeQuest */;
+			targetProxy = F30DACCC1D3D69B80076C0D9 /* PBXContainerItemProxy */;
+		};
+		F30DACD81D3D69B80076C0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30DACB61D3D69B80076C0D9 /* PokeQuest */;
+			targetProxy = F30DACD71D3D69B80076C0D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F30DACBE1D3D69B80076C0D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30DACBF1D3D69B80076C0D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F30DACC31D3D69B80076C0D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30DACC41D3D69B80076C0D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F30DACDD1D3D69B80076C0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F30DACDE1D3D69B80076C0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F30DACE01D3D69B80076C0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC6FF953C2EBE3E6C3DC0FB /* Pods-PocketQuest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PocketQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuest;
+				PRODUCT_NAME = PokeQuest;
+				SWIFT_OBJC_BRIDGING_HEADER = "PocketQuest/PocketQuest-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		F30DACE11D3D69B80076C0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80427209C47484A58860A0A /* Pods-PocketQuest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PocketQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuest;
+				PRODUCT_NAME = PokeQuest;
+				SWIFT_OBJC_BRIDGING_HEADER = "PocketQuest/PocketQuest-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F30DACE31D3D69B80076C0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209E635E7975ABB5333DDE84 /* Pods-PocketQuestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuestTests;
+				PRODUCT_NAME = PokeQuest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeQuest.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app/PokeQuest.temp_caseinsensitive_rename.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		F30DACE41D3D69B80076C0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F8A1E03632490985BCED31 /* Pods-PocketQuestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuestTests;
+				PRODUCT_NAME = PokeQuest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeQuest.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app/PokeQuest.temp_caseinsensitive_rename.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+		F30DACE61D3D69B80076C0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325B0FFAD38BE91EE0D791B8 /* Pods-PocketQuestUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PocketQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuestUITests;
+				PRODUCT_NAME = PokeQuest;
+				TEST_TARGET_NAME = PocketQuest;
+			};
+			name = Debug;
+		};
+		F30DACE71D3D69B80076C0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1CB570B4BCA78C963C99B2 /* Pods-PocketQuestUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PocketQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harbr.PocketQuestUITests;
+				PRODUCT_NAME = PokeQuest;
+				TEST_TARGET_NAME = PocketQuest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30DACB21D3D69B80076C0D9 /* Build configuration list for PBXProject "PokeQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30DACDD1D3D69B80076C0D9 /* Debug */,
+				F30DACDE1D3D69B80076C0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30DACDF1D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PokeQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30DACE01D3D69B80076C0D9 /* Debug */,
+				F30DACE11D3D69B80076C0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30DACE21D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PokeQuest.temp_caseinsensitive_renameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30DACE31D3D69B80076C0D9 /* Debug */,
+				F30DACE41D3D69B80076C0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30DACE51D3D69B80076C0D9 /* Build configuration list for PBXNativeTarget "PokeQuest.temp_caseinsensitive_renameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30DACE61D3D69B80076C0D9 /* Debug */,
+				F30DACE71D3D69B80076C0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F30DACAF1D3D69B80076C0D9 /* Project object */;
+}

@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var team: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +20,25 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func pickATeam(sender: UIButton) {
+        if sender.tag == 1 {
+            team = "Instinct"
+        } else if sender.tag == 2 {
+            team = "Mystic"
+        } else if sender.tag == 3 {
+            team = "Valor"
+        }
+        
+        setFunction()
+        self.performSegueWithIdentifier("goToGame", sender: self)
+    }
+    
+    func setFunction() {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setObject(team, forKey: "team")
+        defaults.setInteger(0, forKey: "Points")
     }
 
 

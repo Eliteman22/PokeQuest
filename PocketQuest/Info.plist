@@ -22,6 +22,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1IjoiZG1iZXJuYWFsIiwiYSI6ImNpcXB1d2E0bDAwNzN0MG5ocW5mOW04aWIifQ.z0r4N7QjzvpgWXKFL0i3zQ</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>PoketQuest needs your location to find pokemon in your area</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -33,8 +37,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>
